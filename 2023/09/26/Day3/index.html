@@ -112,103 +112,30 @@
     </div>
 </header>
         <main class="main">
-            
-<section class="posts">
+            <article class="post">
     
-        <article class="post">
-            
-                    <h1 class="post-title">
-                        <a href="/2023/09/26/Day3/">
-                            Day3：流体与水银灯
-                        </a>
-                    </h1>
+    
+    
+    <h2 class="post-title">
+        Day3：流体与水银灯
+    </h2>
+    <ul class="post-date">
+        <li>
+            2023-09-26
+        </li>
+        <li>
+            Sigmit64
+        </li>
+    </ul>
+    <div class="post-content">
+        <h3 id="Day3"><a href="#Day3" class="headerlink" title="Day3"></a>Day3</h3><p>喜报！我的mod在Day2通过了Modrinth的审核！现在mod可以在网上下载了！<br><a target="_blank" rel="noopener" href="https://modrinth.com/mod/relics-of-the-sky">https://modrinth.com/mod/relics-of-the-sky</a></p>
+<h2 id="流体"><a href="#流体" class="headerlink" title="流体"></a>流体</h2><p>这个东西其实我非常非常早就想加了，但奈何harbinger上面的教程有点小残缺，而我知道的添加了流体的比较小的模组只有我们的老朋友–Ex Nihilo Creatio。最初我并没有完全照抄代码的决心，结果在许许多多小方面吃了很多的亏。教训：抄代码的时候，要么不抄，抄就要抄全。<br>这也是我第一次在材质中接触到动态的东西–实际上根本没啥难的，高度弄个16的整数倍，修改一下图像，再配一个mcmeta–这东西还挺好写的–就差不多了。</p>
+<h2 id="水银灯"><a href="#水银灯" class="headerlink" title="水银灯"></a>水银灯</h2><p>作为一个空岛向的模组，自然要解决空岛前期的一些问题。而空岛前期的资源获取的一大途径就是刷怪塔或者刷怪房；然而搭建刷怪塔费时费力还需要风扇或者向量板之类的东西辅助，而刷怪房效率又不是特别高，于是设计了这么个东西出来。水银灯在开启状态时消耗50能量每秒，能量上限3000-这意味着如果不拿着水银灯的话水银灯可以开100秒，拿着的话可以开300秒。而经测试这玩意刷怪效率相当高，所以哪怕是100秒也绰绰有余。<br>这个东西的实现方式就是每秒在自己周围4-12格远的地方试图生成怪物。如果你站在足够高的平台上，你就可以让落到地上的怪物全都摔死。生成怪物的代码参考了cyclic的水蜡烛，其他代码参考了原版刷怪笼。<br>以及这是我第一次写右键开关的遗物，同样参考了cyclic的护符实现。</p>
+<p>但其实对于空岛的刷怪而言这算不上是多么好的解决方案，因为空岛地方就那么大，你得修一个很大的平台才能让怪物都能掉在平台上。后期可能会设计一个类似随想之茧的方块，并增加其“传染”周围方块的能力。</p>
+<h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><p>设计了更多的筛网和催化剂和流体过滤器配方了。<br>下一步就是设计这些筛网催化剂的合成配方了。今天有点晚就改天再说吧XD</p>
 
-                    <ul class="post-date">
-                        <li>
-                            2023年9月26日
-                        </li>
-                        <li>
-                            Sigmit64
-                        </li>
-                    </ul>
-                    
-                    <div class="post-content ">
-                        
-                            <a href="/2023/09/26/Day3/" class="more-link">Continue reading</a>
-                    </div>
-        </article>
-        
-        <article class="post">
-            
-                    <h1 class="post-title">
-                        <a href="/2023/08/03/%E4%BB%8E%E4%B8%80%E5%88%B0%E6%97%A0%E7%A9%B7%E5%A4%A7/">
-                            从一到无穷大
-                        </a>
-                    </h1>
-
-                    <ul class="post-date">
-                        <li>
-                            2023年8月3日
-                        </li>
-                        <li>
-                            Sigmit64
-                        </li>
-                    </ul>
-                    
-                    <div class="post-content ">
-                        
-                            <a href="/2023/08/03/%E4%BB%8E%E4%B8%80%E5%88%B0%E6%97%A0%E7%A9%B7%E5%A4%A7/" class="more-link">Continue reading</a>
-                    </div>
-        </article>
-        
-        <article class="post">
-            
-                    <h1 class="post-title">
-                        <a href="/2023/08/03/%E5%BC%80%E5%8F%91%E8%BF%9B%E5%BA%A6/">
-                            开发进度与感想
-                        </a>
-                    </h1>
-
-                    <ul class="post-date">
-                        <li>
-                            2023年8月3日
-                        </li>
-                        <li>
-                            Sigmit64
-                        </li>
-                    </ul>
-                    
-                    <div class="post-content ">
-                        
-                            <a href="/2023/08/03/%E5%BC%80%E5%8F%91%E8%BF%9B%E5%BA%A6/" class="more-link">Continue reading</a>
-                    </div>
-        </article>
-        
-        <article class="post">
-            
-                    <h1 class="post-title">
-                        <a href="/2023/08/03/intro/">
-                            简介
-                        </a>
-                    </h1>
-
-                    <ul class="post-date">
-                        <li>
-                            2023年8月3日
-                        </li>
-                        <li>
-                            Sigmit64
-                        </li>
-                    </ul>
-                    
-                    <div class="post-content ">
-                        
-                            <a href="/2023/08/03/intro/" class="more-link">Continue reading</a>
-                    </div>
-        </article>
-        
-</section>
-
+    </div>
+</article>
         </main>
         <aside class="aside">
             <div class="close"></div>
